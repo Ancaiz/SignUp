@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url('https://www.ultraimagehub.com/wallpapers/tr:flp-false,gx-0.5,gy-0.5,q-75,rh-3264,rw-5824,th-1000,tw-1600/1234040884270731294.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.text-area {
+    color: #ffffff;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.text-area h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.text-area p {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.sign-area {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.signupz {
+    background-color: #032859;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    color: #ffffff;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.fill {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #FFCC33;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #24374b;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+input:focus {
+    outline: none;
+    border-color: #FFCC33;
+}
+
+.checkb {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkb input[type="checkbox"] {
+    width: auto;
+    height: auto;
+}
+
+.sign {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.signup-btn, .cancel-btn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-btn {
+    background-color: #FFCC33;
+    color: #032859;
+}
+
+.signup-btn:hover {
+    background-color: #FFB31A;
+}
+
+.bottom {
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.bottom a {
+    color: #FFB31A;
+    text-decoration: none;
+}
+
+.bottom a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #032859;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.contact-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.facebook-logo {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.facebook-logo:hover {
+    opacity: 0.8;
+}
